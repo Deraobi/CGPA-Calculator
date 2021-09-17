@@ -1,7 +1,18 @@
 def GPA():
     '''
-    IN A GP CALCULATOR, THERE IS THE COLUMN FOR COURSES AND THE COLUMN FOR THE CREDIT UNIT, THEN THE COLUMN FOR THE GRADE
-    FOR CGPA, YOU COLLECT THE CURRENT GPA AND THEN YOU COLLECT THE TOTAL CREDIT UNIT
+get no of courses
+get the unit load for each course 
+get the grade for each course
+grades have a point from 0.0 - 5.0
+unit load * point 
+get total unit load 
+get the total (unit load * point) = total points 
+total points / total unit load
+this is the GPA
+
+To get the cummulative
+Add the old GPA to the new GPA
+Divide by 2
     '''
     currentcumulativepoint = float(input("input current cumulative point: "))
     currenttotalcreditunit = int(input("input current total credit unit so far: "))
